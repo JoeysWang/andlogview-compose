@@ -36,6 +36,7 @@ include(":github") {
 }
 
 include("base")
+include("composeui")
 include("device")
 include("filters")
 include("logmodel")
