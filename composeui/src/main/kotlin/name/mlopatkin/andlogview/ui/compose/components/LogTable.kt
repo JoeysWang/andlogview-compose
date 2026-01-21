@@ -1,5 +1,5 @@
 /*
- * Copyright 2026 The AndLogView authors
+ * Copyright 2025 The AndLogView authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -60,7 +60,7 @@ fun LogTable(
             ) {
                 items(logRecords) { record ->
                     LogTableRow(record)
-                    Divider(color = Color.LightGray, thickness = 0.5.dp)
+                    HorizontalDivider(color = Color.LightGray, thickness = 0.5.dp)
                 }
             }
         }
