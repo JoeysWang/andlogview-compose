@@ -5,6 +5,24 @@ of the Android logs, both online and offline.
 
 ![Application window](https://andlogview.mlopatkin.name/andlogview.png)
 
+## 🚀 Compose Multiplatform Refactoring
+
+This repository is being refactored to use **Compose Multiplatform** for the frontend display. The new Compose-based UI provides:
+
+- Modern, declarative UI framework
+- Better maintainability and testability
+- Cross-platform support out of the box
+- Reactive state management
+
+See the [`composeui/`](composeui/) module for the new Compose implementation.
+
+**Status**: 🚧 Work in Progress - The Compose UI currently includes:
+- ✅ Main window with Material 3 design
+- ✅ Log table with color-coded priorities
+- ✅ Search functionality with regex support
+- ✅ Multi-criteria filtering (priority, tag, PID, message)
+- 🔄 Integration with existing business logic (in progress)
+
 ## Features
 
 - Display logs from a device or an emulator
